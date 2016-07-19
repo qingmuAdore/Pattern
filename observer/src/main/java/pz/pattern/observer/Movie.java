@@ -7,6 +7,10 @@ package pz.pattern.observer;
  * @time 7/18/2016 7:18 PM
  */
 public class Movie extends Observable {
+
+    /**
+     * play movie
+     */
     public void play() {
         setChanged();
         notifyObservers();
