@@ -5,5 +5,6 @@ package pz.pattern.observer;
  * @version v1.0.0
  * @time 7/19/2016 2:32 PM
  */
-public class Observer {
+public interface Observer {
+    void update(Observable observable,Object object);
 }

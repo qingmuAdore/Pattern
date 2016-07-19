@@ -1,9 +1,14 @@
 package pz.pattern.observer;
 
+
 /**
  * @author pzhang
  * @version v1.0.0
- * @time 7/19/2016 2:33 PM
+ * @time 7/18/2016 7:18 PM
  */
-public class Movie {
+public class Movie extends Observable {
+    public void play() {
+        setChanged();
+        notifyObservers();
+    }
 }
