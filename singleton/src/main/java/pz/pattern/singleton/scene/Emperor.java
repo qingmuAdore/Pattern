@@ -1,4 +1,4 @@
-package pz.pattern.singleton.custom;
+package pz.pattern.singleton.scene;
 
 /**
  * @author pzhang

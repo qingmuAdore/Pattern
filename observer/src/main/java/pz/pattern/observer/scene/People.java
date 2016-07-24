@@ -1,5 +1,8 @@
-package pz.pattern.observer;
+package pz.pattern.observer.scene;
 
+
+import pz.pattern.observer.Observable;
+import pz.pattern.observer.Observer;
 
 /**
  * @author pzhang

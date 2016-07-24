@@ -1,4 +1,4 @@
-package pz.pattern.observer;
+package pz.pattern.observer.scene;
 
 
 /**
