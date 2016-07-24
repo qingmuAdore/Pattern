@@ -8,14 +8,14 @@ package pz.pattern.observer.scene;
  */
 public class Cinema {
     public static void main(String[] args) {
-        Movie observable = new Movie();
+        Projector observable = new Projector();
         People people = new People();
         people.book(observable);
-        show(observable);
+        start(observable);
     }
 
-    public static void show(Movie movie){
-        movie.play();
+    public static void start(Projector projector){
+        projector.play();
     }
 
 }

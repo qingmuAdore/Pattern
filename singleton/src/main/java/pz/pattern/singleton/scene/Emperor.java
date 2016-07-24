@@ -17,8 +17,8 @@ public class Emperor {
         return INSTANCE;
     }
 
-    public void read(String issue) {
-        System.out.println("Emperor read the report:" + issue);
+    public void listen(String issue) {
+        System.out.println("Emperor listen the report:" + issue);
     }
 
 }

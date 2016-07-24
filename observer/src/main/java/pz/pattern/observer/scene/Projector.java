@@ -8,7 +8,7 @@ import pz.pattern.observer.Observable;
  * @version v1.0.0
  * @time 7/18/2016 7:18 PM
  */
-public class Movie extends Observable {
+public class Projector extends Observable {
 
     /**
      * play movie

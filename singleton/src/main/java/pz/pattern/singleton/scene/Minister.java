@@ -9,7 +9,7 @@ public class Minister {
 
     public void report(String issue) {
         System.out.println("Minister report:"+issue);
-        Emperor.getInstance().read(issue);
+        Emperor.getInstance().listen(issue);
     }
 
 }
